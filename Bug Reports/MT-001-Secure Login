@@ -1,0 +1,28 @@
+##Bug Title
+Secure Login Option Has No Action
+
+##Description
+After clicking on the Secure Login option, no action is performed and nothing happens.
+
+##Steps to Reproduce
+1. Open the application.
+2. Enter a valid username and password.
+3. Log in to the system.
+4. Navigate to the Profile page.
+5. Click on the Secure Login option.
+
+##Expected Result
+The user should be able to view the available secure login options and select one of them.
+
+##Actual Result
+After clicking on the Secure Login option, no action is performed and nothing happens.
+
+##Severity
+Medium
+
+##Priority
+Normal
+
+##Test Environment
+Browser: Chrome & Firefox
+Operating System: win 11 & Android
