@@ -1,0 +1,35 @@
+**Title:** Verify that the Secure Login option displays available secure login methods.
+
+**Preconditions:**
+
+* User account exists and is active.
+* User has valid login credentials.
+* Application is accessible.
+
+**Test Steps:**
+
+| Step | Action                                            | Expected Result                                                           |
+| ---- | ------------------------------------------------- | ------------------------------------------------------------------------- |
+| 1    | Open the application.                             | Application opens successfully.                                           |
+| 2    | Enter a valid username and password.              | Credentials are accepted.                                                 |
+| 3    | Log in to the system.                             | User is logged in successfully.                                           |
+| 4    | Navigate to the Profile page.                     | Profile page is displayed.                                                |
+| 5    | Click on the **Secure Login** option.             | A list of available secure login methods is displayed.                    |
+| 6    | Select one of the available secure login methods. | The selected secure login method is activated or configured successfully. |
+
+**Expected Result:**
+The user can access the Secure Login section, view available secure login methods, and select one successfully.
+
+**Actual Result:**
+No action is triggered after clicking the Secure Login option.
+
+**Severity:** Medium
+
+**Priority:** Normal
+
+**Test Environment:**
+
+* Browsers: Chrome, Firefox
+* Operating Systems: Windows 11, Android
+
+**Status:** Failed
